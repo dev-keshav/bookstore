@@ -70,7 +70,6 @@ const App = () => {
           />
           <Route path="/" element={<Login />} />
           <Route path="/register" element={<Register />} />
-          {/* <Route path="*" element={<Page404 />} /> */}
         </Routes>
       </UserAuthContextProvider>
     </BrowserRouter>
