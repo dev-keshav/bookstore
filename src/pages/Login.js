@@ -91,16 +91,16 @@ export default function Login() {
           >
             Sign In
           </Button>
-          
+
           <Grid container>
             <Grid item xs>
-            <div>
-            <GoogleButton
-              className="g-btn"
-              type="dark"
-              onClick={handleGoogleSignIn}
-            />
-          </div>
+              <div>
+                <GoogleButton
+                  className="g-btn"
+                  type="dark"
+                  onClick={handleGoogleSignIn}
+                />
+              </div>
             </Grid>
             <Grid item>
               <Link href="/register" variant="body2">

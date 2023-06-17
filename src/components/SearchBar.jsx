@@ -82,10 +82,6 @@ const SearchBar = () => {
     );
   };
 
-  // const handleClick = () => {
-  //   navigate("/searched/books", { state: transferData });
-  // };
-
   
 
   const inputProps = {

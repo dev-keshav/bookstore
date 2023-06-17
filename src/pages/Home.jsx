@@ -54,25 +54,6 @@ const Home = () => {
     };
   }, []);
 
-  // const handelInfiniteScroll = () => {
-  //   try {
-  //     if (
-  //       !loadingData && // Check if data is not currently being loaded
-  //       window.innerHeight + document.documentElement.scrollTop + 1 >=
-  //       document.documentElement.offsetHeight
-  //     ) {
-  //       setLoading(true);
-  //       setPage((prev) => prev + 1);
-  //     }
-  //   } catch (error) {
-  //     console.log(error);
-  //   }
-  // };
-
-  // useEffect(() => {
-  //   window.addEventListener("scroll", handelInfiniteScroll);
-  //   return () => window.removeEventListener("scroll", handelInfiniteScroll);
-  // }, []);
 
   return (
     <div className="home">
